@@ -1,0 +1,90 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  		body {
+  			background-color: #00759b;
+  		}
+  		* {
+  		  padding: 0;
+  		  margin: 0;
+  		}
+  		.fit {
+  		  max-width: 100%;
+  		  max-height: 100%;
+  		}
+  		.center {
+  		  display: block;
+  		  margin: auto;
+  		}
+  	</style>
+
+    <script type="text/javascript" charset="utf-8">
+      var urlBase="http://www.fullrank.cc:8000/iot/";
+    	var deviceName = "neonlights/";
+    	var opType = {"shake":"shake","swipeLeft":"swipeleft","swipeRight":"swiperight"};
+    	var opSet = {"open":"On", "close":"Off"};
+    	var validStr = "success";
+      var kState = "close";
+
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+
+    	function sendUrlMsg(kType, kSet) {
+    		var newUrl = urlBase + deviceName + opType[kType] + opSet[kSet];
+        alert(newUrl);
+    		var xmlhttp = new XMLHttpRequest();
+    		xmlhttp.onreadystatechange=function() {
+    		  if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+    				var response = xmlhttp.responseText; //if you need to do something with the returned value
+            if(response.indexOf(validStr) !== -1){
+              //var now = new Date();
+              //alert(now.getTime());
+              if(kSet.indexOf("open") !== -1 ){
+                kState = kSet;
+                document.getElementById("bgimg").src = "{% static 'neonlights/img/logo-big.png' %}";
+                document.body.style.backgroundColor = "#AA0000";
+                //alert(kState);
+                //setTimeout(sendUrlMsg("shake","close"), 5000);
+                //sendUrlMsg("shake","close");
+              } else {
+                //alert(kState);
+              }
+            } else {
+              //sendUrlMsg(kType, kSet);
+              alert(response + ", please try again");
+            };
+    		  };
+    		};
+    		xmlhttp.open("GET",newUrl,true);
+    		xmlhttp.send();
+    		//alert("light on");
+    	};
+
+      async function OnShake(){
+        sendUrlMsg("shake","open");
+        var now = new Date();
+        //alert(now.getSeconds());
+        //document.getElementById("bgimg").src = "{% static 'neonlights/img/logo-big.png' %}";
+        await sleep(5000);
+        if(kState == "open"){
+          //await sleep(5000);
+          //alert(kState);
+          sendUrlMsg("shake","close");
+          var cur = new Date();
+          //alert(cur - now);
+          kState = "close";
+          document.getElementById("bgimg").src = "{% static 'neonlights/img/remotuino.png' %}";
+          document.body.style.backgroundColor = "#00759b";
+        }
+        //alert(kState);
+      };
+    </script>
+  </head>
+  <body>
+    <button onclick="OnShake()">shake</button>
+    <img id="bgimg" src="{% static 'neonlights/img/remotuino.png' %}" >
+  </body>
+</html>

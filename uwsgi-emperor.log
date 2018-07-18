@@ -1,0 +1,1562 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Apr 10 22:16:26 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 19:29:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/matthew/django/fullrank
+detected binary path: /home/matthew/django/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Apr 10 22:16:26 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 19:29:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/django/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc2dc90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc2dc90 pid: 1070 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1070)
+Tue Apr 10 22:16:26 2018 - [emperor] vassal fullrank_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1072, cores: 1)
+spawned uWSGI worker 2 (pid: 1073, cores: 1)
+spawned uWSGI worker 3 (pid: 1074, cores: 1)
+spawned uWSGI worker 4 (pid: 1075, cores: 1)
+spawned uWSGI worker 5 (pid: 1076, cores: 1)
+spawned uWSGI worker 6 (pid: 1077, cores: 1)
+spawned uWSGI worker 7 (pid: 1078, cores: 1)
+spawned uWSGI worker 8 (pid: 1079, cores: 1)
+spawned uWSGI worker 9 (pid: 1080, cores: 1)
+spawned uWSGI worker 10 (pid: 1081, cores: 1)
+Tue Apr 10 22:16:26 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:17:18 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/matthew/django/fullrank
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:17:18 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x212fe90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x212fe90 pid: 1095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1095)
+Tue Apr 10 22:17:18 2018 - [emperor] vassal fullrank_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1097, cores: 1)
+spawned uWSGI worker 2 (pid: 1098, cores: 1)
+spawned uWSGI worker 3 (pid: 1099, cores: 1)
+spawned uWSGI worker 4 (pid: 1100, cores: 1)
+spawned uWSGI worker 5 (pid: 1101, cores: 1)
+spawned uWSGI worker 6 (pid: 1102, cores: 1)
+spawned uWSGI worker 7 (pid: 1103, cores: 1)
+spawned uWSGI worker 8 (pid: 1104, cores: 1)
+spawned uWSGI worker 9 (pid: 1105, cores: 1)
+spawned uWSGI worker 10 (pid: 1106, cores: 1)
+Tue Apr 10 22:17:18 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+[pid: 1101|app: 0|req: 1/1] 101.81.250.65 () {44 vars in 819 bytes} [Tue Apr 10 14:17:27 2018] GET /admin/ => generated 0 bytes in 23 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:17:27 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1097|app: 0|req: 1/2] 101.81.250.65 () {44 vars in 856 bytes} [Tue Apr 10 14:17:27 2018] GET /admin/login/?next=/admin/ => generated 1650 bytes in 50 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:17:27 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Tue Apr 10 22:23:02 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:23:02 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1072)...
+Gracefully killing worker 2 (pid: 1073)...
+Gracefully killing worker 3 (pid: 1074)...
+Gracefully killing worker 4 (pid: 1075)...
+Gracefully killing worker 5 (pid: 1076)...
+Gracefully killing worker 6 (pid: 1077)...
+Gracefully killing worker 7 (pid: 1078)...
+Gracefully killing worker 8 (pid: 1079)...
+Gracefully killing worker 9 (pid: 1080)...
+Gracefully killing worker 10 (pid: 1081)...
+Tue Apr 10 22:23:03 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:23:03 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1097)...
+Gracefully killing worker 2 (pid: 1098)...
+Gracefully killing worker 3 (pid: 1099)...
+Gracefully killing worker 4 (pid: 1100)...
+Gracefully killing worker 5 (pid: 1101)...
+Gracefully killing worker 6 (pid: 1102)...
+Gracefully killing worker 7 (pid: 1103)...
+Gracefully killing worker 8 (pid: 1104)...
+Gracefully killing worker 9 (pid: 1105)...
+Gracefully killing worker 10 (pid: 1106)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/django/venv/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Apr 10 14:23:04 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 19:29:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/django/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24d4b70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x24d4b70 pid: 1070 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1070)
+spawned uWSGI worker 1 (pid: 1131, cores: 1)
+spawned uWSGI worker 2 (pid: 1132, cores: 1)
+spawned uWSGI worker 3 (pid: 1133, cores: 1)
+spawned uWSGI worker 4 (pid: 1134, cores: 1)
+spawned uWSGI worker 5 (pid: 1135, cores: 1)
+spawned uWSGI worker 6 (pid: 1136, cores: 1)
+spawned uWSGI worker 7 (pid: 1137, cores: 1)
+spawned uWSGI worker 8 (pid: 1138, cores: 1)
+spawned uWSGI worker 9 (pid: 1139, cores: 1)
+spawned uWSGI worker 10 (pid: 1140, cores: 1)
+Tue Apr 10 22:23:05 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/.local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 14:23:05 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eefd70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1eefd70 pid: 1095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1095)
+spawned uWSGI worker 1 (pid: 1142, cores: 1)
+spawned uWSGI worker 2 (pid: 1143, cores: 1)
+spawned uWSGI worker 3 (pid: 1144, cores: 1)
+spawned uWSGI worker 4 (pid: 1145, cores: 1)
+spawned uWSGI worker 5 (pid: 1146, cores: 1)
+spawned uWSGI worker 6 (pid: 1147, cores: 1)
+spawned uWSGI worker 7 (pid: 1148, cores: 1)
+spawned uWSGI worker 8 (pid: 1149, cores: 1)
+spawned uWSGI worker 9 (pid: 1150, cores: 1)
+spawned uWSGI worker 10 (pid: 1151, cores: 1)
+Tue Apr 10 22:23:05 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:23:07 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/matthew/django/fullrank
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:23:07 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x179df00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x179df00 pid: 1155 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1155)
+Tue Apr 10 22:23:07 2018 - [emperor] vassal fullrank_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1157, cores: 1)
+spawned uWSGI worker 2 (pid: 1158, cores: 1)
+spawned uWSGI worker 3 (pid: 1159, cores: 1)
+spawned uWSGI worker 4 (pid: 1160, cores: 1)
+spawned uWSGI worker 5 (pid: 1161, cores: 1)
+spawned uWSGI worker 6 (pid: 1162, cores: 1)
+spawned uWSGI worker 7 (pid: 1163, cores: 1)
+spawned uWSGI worker 8 (pid: 1164, cores: 1)
+spawned uWSGI worker 9 (pid: 1165, cores: 1)
+spawned uWSGI worker 10 (pid: 1166, cores: 1)
+Tue Apr 10 22:23:07 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+Tue Apr 10 22:24:40 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:24:40 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 3 (pid: 1159)...
+Gracefully killing worker 2 (pid: 1158)...
+Gracefully killing worker 1 (pid: 1157)...
+Gracefully killing worker 4 (pid: 1160)...
+Gracefully killing worker 5 (pid: 1161)...
+Gracefully killing worker 6 (pid: 1162)...
+Gracefully killing worker 7 (pid: 1163)...
+Gracefully killing worker 8 (pid: 1164)...
+Gracefully killing worker 9 (pid: 1165)...
+Gracefully killing worker 10 (pid: 1166)...
+Tue Apr 10 22:24:41 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:24:41 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1131)...
+Gracefully killing worker 2 (pid: 1132)...
+Gracefully killing worker 3 (pid: 1133)...
+Gracefully killing worker 4 (pid: 1134)...
+Gracefully killing worker 5 (pid: 1135)...
+Gracefully killing worker 6 (pid: 1136)...
+Gracefully killing worker 7 (pid: 1137)...
+Gracefully killing worker 8 (pid: 1138)...
+Gracefully killing worker 9 (pid: 1139)...
+Gracefully killing worker 10 (pid: 1140)...
+Tue Apr 10 22:24:41 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:24:41 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1142)...
+Gracefully killing worker 2 (pid: 1143)...
+Gracefully killing worker 3 (pid: 1144)...
+Gracefully killing worker 4 (pid: 1145)...
+Gracefully killing worker 5 (pid: 1146)...
+Gracefully killing worker 6 (pid: 1147)...
+Gracefully killing worker 7 (pid: 1148)...
+Gracefully killing worker 8 (pid: 1149)...
+Gracefully killing worker 9 (pid: 1150)...
+Gracefully killing worker 10 (pid: 1151)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/.local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 14:24:42 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22e5d40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/django/venv/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Apr 10 14:24:43 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 19:29:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/django/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x239fb40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22e5d40 pid: 1155 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1155)
+spawned uWSGI worker 1 (pid: 1191, cores: 1)
+spawned uWSGI worker 2 (pid: 1192, cores: 1)
+spawned uWSGI worker 3 (pid: 1193, cores: 1)
+Tue Apr 10 22:24:43 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 4 (pid: 1194, cores: 1)
+spawned uWSGI worker 5 (pid: 1195, cores: 1)
+spawned uWSGI worker 6 (pid: 1196, cores: 1)
+spawned uWSGI worker 7 (pid: 1197, cores: 1)
+spawned uWSGI worker 8 (pid: 1198, cores: 1)
+spawned uWSGI worker 9 (pid: 1199, cores: 1)
+spawned uWSGI worker 10 (pid: 1200, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:24:43 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/matthew/django/fullrank
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:24:43 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15aaeb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+worker 3 buried after 3 seconds
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x239fb40 pid: 1070 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1070)
+spawned uWSGI worker 1 (pid: 1206, cores: 1)
+spawned uWSGI worker 2 (pid: 1207, cores: 1)
+spawned uWSGI worker 3 (pid: 1208, cores: 1)
+spawned uWSGI worker 4 (pid: 1209, cores: 1)
+spawned uWSGI worker 5 (pid: 1210, cores: 1)
+Tue Apr 10 22:24:44 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 6 (pid: 1211, cores: 1)
+spawned uWSGI worker 7 (pid: 1212, cores: 1)
+spawned uWSGI worker 8 (pid: 1213, cores: 1)
+spawned uWSGI worker 9 (pid: 1214, cores: 1)
+spawned uWSGI worker 10 (pid: 1215, cores: 1)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15aaeb0 pid: 1205 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1205)
+Tue Apr 10 22:24:44 2018 - [emperor] vassal fullrank_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1217, cores: 1)
+spawned uWSGI worker 2 (pid: 1218, cores: 1)
+spawned uWSGI worker 3 (pid: 1219, cores: 1)
+spawned uWSGI worker 4 (pid: 1220, cores: 1)
+spawned uWSGI worker 5 (pid: 1221, cores: 1)
+spawned uWSGI worker 6 (pid: 1222, cores: 1)
+spawned uWSGI worker 7 (pid: 1223, cores: 1)
+spawned uWSGI worker 8 (pid: 1224, cores: 1)
+spawned uWSGI worker 9 (pid: 1225, cores: 1)
+spawned uWSGI worker 10 (pid: 1226, cores: 1)
+Tue Apr 10 22:24:44 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 4 buried after 4 seconds
+worker 5 buried after 4 seconds
+worker 6 buried after 4 seconds
+worker 7 buried after 4 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/.local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 14:24:45 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9c5d40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9c5d40 pid: 1095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1095)
+spawned uWSGI worker 1 (pid: 1228, cores: 1)
+spawned uWSGI worker 2 (pid: 1229, cores: 1)
+spawned uWSGI worker 3 (pid: 1230, cores: 1)
+spawned uWSGI worker 4 (pid: 1231, cores: 1)
+spawned uWSGI worker 5 (pid: 1232, cores: 1)
+spawned uWSGI worker 6 (pid: 1233, cores: 1)
+spawned uWSGI worker 7 (pid: 1234, cores: 1)
+spawned uWSGI worker 8 (pid: 1235, cores: 1)
+spawned uWSGI worker 9 (pid: 1236, cores: 1)
+spawned uWSGI worker 10 (pid: 1237, cores: 1)
+Tue Apr 10 22:24:45 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+[pid: 1221|app: 0|req: 1/1] 101.81.250.65 () {44 vars in 819 bytes} [Tue Apr 10 14:24:48 2018] GET /admin/ => generated 0 bytes in 22 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:24:48 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1217|app: 0|req: 1/2] 101.81.250.65 () {44 vars in 856 bytes} [Tue Apr 10 14:24:48 2018] GET /admin/login/?next=/admin/ => generated 1650 bytes in 45 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:24:48 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1218|app: 0|req: 1/3] 101.81.250.65 () {52 vars in 1076 bytes} [Tue Apr 10 14:24:55 2018] POST /admin/login/?next=/admin/ => generated 0 bytes in 68 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:24:55 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1217|app: 0|req: 2/4] 101.81.250.65 () {46 vars in 928 bytes} [Tue Apr 10 14:24:55 2018] GET /admin/ => generated 3449 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1218|app: 0|req: 2/5] 101.81.250.65 () {44 vars in 898 bytes} [Tue Apr 10 14:24:58 2018] GET /admin/auth/user/ => generated 6453 bytes in 90 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1217|app: 0|req: 3/6] 101.81.250.65 () {42 vars in 785 bytes} [Tue Apr 10 14:24:58 2018] GET /admin/jsi18n/ => generated 3189 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1226|app: 0|req: 1/7] 101.81.250.65 () {42 vars in 820 bytes} [Tue Apr 10 14:25:06 2018] GET / => generated 2020 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:25:06 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1217|app: 0|req: 4/8] 101.81.250.65 () {42 vars in 826 bytes} [Tue Apr 10 14:25:09 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1218|app: 0|req: 3/9] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:25:13 2018] GET /iot => generated 2047 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1225|app: 0|req: 1/10] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:25:14 2018] GET /iot => generated 2047 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:25:14 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1217|app: 0|req: 5/11] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:25:14 2018] GET /iot => generated 2047 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1218|app: 0|req: 4/12] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:25:14 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1226|app: 0|req: 2/13] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:25:14 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1224|app: 0|req: 1/14] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:25:15 2018] GET /iot => generated 2047 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:25:15 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Tue Apr 10 22:32:39 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:32:39 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1217)...
+Gracefully killing worker 2 (pid: 1218)...
+Gracefully killing worker 3 (pid: 1219)...
+Gracefully killing worker 4 (pid: 1220)...
+Gracefully killing worker 5 (pid: 1221)...
+Gracefully killing worker 6 (pid: 1222)...
+Gracefully killing worker 7 (pid: 1223)...
+Gracefully killing worker 8 (pid: 1224)...
+Gracefully killing worker 9 (pid: 1225)...
+Gracefully killing worker 10 (pid: 1226)...
+Tue Apr 10 22:32:39 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:32:39 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1228)...
+Gracefully killing worker 2 (pid: 1229)...
+Gracefully killing worker 3 (pid: 1230)...
+Gracefully killing worker 4 (pid: 1231)...
+Gracefully killing worker 5 (pid: 1232)...
+Gracefully killing worker 6 (pid: 1233)...
+Gracefully killing worker 7 (pid: 1234)...
+Gracefully killing worker 8 (pid: 1235)...
+Gracefully killing worker 9 (pid: 1236)...
+Gracefully killing worker 10 (pid: 1237)...
+Tue Apr 10 22:32:41 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:32:41 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1191)...
+Gracefully killing worker 2 (pid: 1192)...
+Gracefully killing worker 3 (pid: 1193)...
+Gracefully killing worker 4 (pid: 1194)...
+Gracefully killing worker 5 (pid: 1195)...
+Gracefully killing worker 6 (pid: 1196)...
+Gracefully killing worker 7 (pid: 1197)...
+Gracefully killing worker 8 (pid: 1198)...
+Gracefully killing worker 9 (pid: 1199)...
+Gracefully killing worker 10 (pid: 1200)...
+Tue Apr 10 22:32:41 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Tue Apr 10 14:32:41 2018 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1206)...
+Gracefully killing worker 2 (pid: 1207)...
+Gracefully killing worker 3 (pid: 1208)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/.local/bin/uwsgi
+Gracefully killing worker 4 (pid: 1209)...
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+open("./python3_plugin.so"): No such file or directory [core/utils.c line 3713]
+!!! UNABLE to load uWSGI plugin: ./python3_plugin.so: cannot open shared object file: No such file or directory !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 14:32:41 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Gracefully killing worker 5 (pid: 1210)...
+Gracefully killing worker 6 (pid: 1211)...
+Gracefully killing worker 7 (pid: 1212)...
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+Gracefully killing worker 8 (pid: 1213)...
+Gracefully killing worker 9 (pid: 1214)...
+Gracefully killing worker 10 (pid: 1215)...
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x19cada0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/.local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+open("./python3_plugin.so"): No such file or directory [core/utils.c line 3713]
+!!! UNABLE to load uWSGI plugin: ./python3_plugin.so: cannot open shared object file: No such file or directory !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 14:32:41 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1885da0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19cada0 pid: 1205 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1205)
+spawned uWSGI worker 1 (pid: 1901, cores: 1)
+Tue Apr 10 22:32:42 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 2 (pid: 1902, cores: 1)
+spawned uWSGI worker 3 (pid: 1903, cores: 1)
+spawned uWSGI worker 4 (pid: 1904, cores: 1)
+spawned uWSGI worker 5 (pid: 1905, cores: 1)
+spawned uWSGI worker 6 (pid: 1906, cores: 1)
+spawned uWSGI worker 7 (pid: 1907, cores: 1)
+spawned uWSGI worker 8 (pid: 1908, cores: 1)
+spawned uWSGI worker 9 (pid: 1909, cores: 1)
+spawned uWSGI worker 10 (pid: 1910, cores: 1)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x1885da0 pid: 1095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1095)
+spawned uWSGI worker 1 (pid: 1911, cores: 1)
+spawned uWSGI worker 2 (pid: 1912, cores: 1)
+Tue Apr 10 22:32:43 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 3 (pid: 1913, cores: 1)
+spawned uWSGI worker 4 (pid: 1914, cores: 1)
+spawned uWSGI worker 5 (pid: 1915, cores: 1)
+spawned uWSGI worker 6 (pid: 1916, cores: 1)
+spawned uWSGI worker 7 (pid: 1917, cores: 1)
+spawned uWSGI worker 8 (pid: 1918, cores: 1)
+spawned uWSGI worker 9 (pid: 1919, cores: 1)
+spawned uWSGI worker 10 (pid: 1920, cores: 1)
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/.local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+open("./python3_plugin.so"): No such file or directory [core/utils.c line 3713]
+!!! UNABLE to load uWSGI plugin: ./python3_plugin.so: cannot open shared object file: No such file or directory !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 14:32:44 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x149bda0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x149bda0 pid: 1155 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1155)
+spawned uWSGI worker 1 (pid: 1922, cores: 1)
+spawned uWSGI worker 2 (pid: 1923, cores: 1)
+spawned uWSGI worker 3 (pid: 1924, cores: 1)
+spawned uWSGI worker 4 (pid: 1925, cores: 1)
+spawned uWSGI worker 5 (pid: 1926, cores: 1)
+spawned uWSGI worker 6 (pid: 1927, cores: 1)
+spawned uWSGI worker 7 (pid: 1928, cores: 1)
+spawned uWSGI worker 8 (pid: 1929, cores: 1)
+spawned uWSGI worker 9 (pid: 1930, cores: 1)
+spawned uWSGI worker 10 (pid: 1931, cores: 1)
+Tue Apr 10 22:32:44 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/matthew/django/fullrank/fullrank.sock)
+running /home/matthew/django/venv/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+open("./python3_plugin.so"): No such file or directory [core/utils.c line 3686]
+!!! UNABLE to load uWSGI plugin: ./python3_plugin.so: cannot open shared object file: No such file or directory !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Tue Apr 10 14:32:44 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 19:29:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/django/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1596ba0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1596ba0 pid: 1070 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1070)
+spawned uWSGI worker 1 (pid: 1933, cores: 1)
+spawned uWSGI worker 2 (pid: 1934, cores: 1)
+spawned uWSGI worker 3 (pid: 1935, cores: 1)
+spawned uWSGI worker 4 (pid: 1936, cores: 1)
+spawned uWSGI worker 5 (pid: 1937, cores: 1)
+spawned uWSGI worker 6 (pid: 1938, cores: 1)
+spawned uWSGI worker 7 (pid: 1939, cores: 1)
+spawned uWSGI worker 8 (pid: 1940, cores: 1)
+spawned uWSGI worker 9 (pid: 1941, cores: 1)
+spawned uWSGI worker 10 (pid: 1942, cores: 1)
+Tue Apr 10 22:32:44 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:32:49 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/matthew/django/fullrank
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from fullrank_uwsgi.ini
+open("./python3_plugin.so"): No such file or directory [core/utils.c line 3713]
+!!! UNABLE to load uWSGI plugin: ./python3_plugin.so: cannot open shared object file: No such file or directory !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 22:32:49 2018] ***
+compiled with version: 5.4.0 20160609 on 10 April 2018 13:32:02
+os: Linux-4.4.0-105-generic #128-Ubuntu SMP Thu Dec 14 12:42:11 UTC 2017
+nodename: iZbp1d5dikbmtvghf3p6b9Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/vassals
+detected binary path: /home/matthew/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/matthew/django/fullrank
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/matthew/django/fullrank/fullrank.sock fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/matthew/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x144cf20
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x144cf20 pid: 1946 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1946)
+Tue Apr 10 22:32:49 2018 - [emperor] vassal fullrank_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 1948, cores: 1)
+spawned uWSGI worker 2 (pid: 1949, cores: 1)
+spawned uWSGI worker 3 (pid: 1950, cores: 1)
+spawned uWSGI worker 4 (pid: 1951, cores: 1)
+spawned uWSGI worker 5 (pid: 1952, cores: 1)
+spawned uWSGI worker 6 (pid: 1953, cores: 1)
+spawned uWSGI worker 7 (pid: 1954, cores: 1)
+spawned uWSGI worker 8 (pid: 1955, cores: 1)
+spawned uWSGI worker 9 (pid: 1956, cores: 1)
+spawned uWSGI worker 10 (pid: 1957, cores: 1)
+Tue Apr 10 22:32:49 2018 - [emperor] vassal fullrank_uwsgi.ini is ready to accept requests
+Not Found: /iot
+[pid: 1950|app: 0|req: 1/1] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:32:56 2018] GET /iot => generated 2047 bytes in 21 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:32:56 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1948|app: 0|req: 1/2] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:32:58 2018] GET /iot => generated 2047 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:32:58 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1957|app: 0|req: 1/3] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:32:58 2018] GET /iot => generated 2047 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:32:58 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1948|app: 0|req: 2/4] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:32:58 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1956|app: 0|req: 1/5] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:32:59 2018] GET /iot => generated 2047 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:32:59 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1948|app: 0|req: 3/6] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:32:59 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1957|app: 0|req: 2/7] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:00 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1950|app: 0|req: 2/8] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:00 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1955|app: 0|req: 1/9] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:00 2018] GET /iot => generated 2047 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:33:00 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+Not Found: /iot
+[pid: 1948|app: 0|req: 4/10] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:00 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1957|app: 0|req: 3/11] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:00 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1956|app: 0|req: 2/12] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:00 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 3/13] 101.81.250.65 () {42 vars in 836 bytes} [Tue Apr 10 14:33:03 2018] GET /iot/test => generated 2439 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1948|app: 0|req: 5/14] 101.81.250.65 () {42 vars in 826 bytes} [Tue Apr 10 14:33:06 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1957|app: 0|req: 4/15] 101.81.250.65 () {44 vars in 857 bytes} [Tue Apr 10 14:33:08 2018] GET /iot => generated 2047 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 3/16] 101.81.250.65 () {42 vars in 832 bytes} [Tue Apr 10 14:33:10 2018] GET /admin/ => generated 3449 bytes in 41 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 6/17] 101.81.250.65 () {42 vars in 832 bytes} [Tue Apr 10 14:33:11 2018] GET /admin/ => generated 3449 bytes in 40 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1957|app: 0|req: 5/18] 101.81.250.65 () {42 vars in 826 bytes} [Tue Apr 10 14:33:16 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 4/19] 101.81.250.65 () {42 vars in 836 bytes} [Tue Apr 10 14:33:19 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 1/20] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:22 2018] GET /iot/test => generated 2439 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:33:22 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1948|app: 0|req: 7/21] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:22 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 6/22] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:22 2018] GET /iot/test => generated 2439 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 8/23] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:22 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 2/24] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:23 2018] GET /iot/test => generated 2439 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 9/25] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:23 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 4/26] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:23 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 5/27] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:23 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 1/28] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:23 2018] GET /iot/test => generated 2439 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:33:23 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1948|app: 0|req: 10/29] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:23 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 7/30] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:24 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 1/31] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:24 2018] GET /iot/test => generated 2439 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:33:24 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1948|app: 0|req: 11/32] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:24 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 8/33] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:24 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 6/34] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:24 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 5/35] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:24 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 3/36] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:25 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 1/37] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:25 2018] GET /iot/test => generated 2439 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:33:25 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1948|app: 0|req: 12/38] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:25 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 9/39] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:25 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 4/40] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:25 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 1/41] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:26 2018] GET /iot/test => generated 2439 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Tue Apr 10 22:33:26 2018 - [emperor] vassal fullrank_uwsgi.ini is now loyal
+[pid: 1948|app: 0|req: 13/42] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:26 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 10/43] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:26 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 5/44] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:26 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 2/45] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:26 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 2/46] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:26 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 2/47] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:27 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 7/48] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:27 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 6/49] 101.81.250.65 () {44 vars in 867 bytes} [Tue Apr 10 14:33:27 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 2/50] 101.81.250.65 () {42 vars in 848 bytes} [Tue Apr 10 14:33:32 2018] GET /iot/neonlights => generated 1152 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 7/51] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:35 2018] GET /iot/neonlights => generated 1152 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 14/52] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:35 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 6/53] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:35 2018] GET /iot/neonlights => generated 1152 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 11/54] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:35 2018] GET /iot/neonlights => generated 1152 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 8/55] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:35 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 3/56] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:35 2018] GET /iot/neonlights => generated 1152 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 3/57] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:36 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 2/58] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:36 2018] GET /iot/neonlights => generated 1152 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 15/59] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:36 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 3/60] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:36 2018] GET /iot/neonlights => generated 1152 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 16/61] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:36 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 12/62] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:36 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 7/63] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:37 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 3/64] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:37 2018] GET /iot/neonlights => generated 1152 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 9/65] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:37 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 4/66] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:37 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 8/67] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:37 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 4/68] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:37 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 3/69] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:38 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 17/70] 101.81.250.65 () {44 vars in 879 bytes} [Tue Apr 10 14:33:38 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 18/71] 101.81.250.65 () {44 vars in 900 bytes} [Tue Apr 10 14:52:56 2018] GET /admin/login/?next=/admin/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 246 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 13/72] 101.81.250.65 () {44 vars in 863 bytes} [Tue Apr 10 14:52:56 2018] GET /admin/ => generated 3449 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 19/73] 101.81.250.65 () {44 vars in 863 bytes} [Tue Apr 10 14:52:56 2018] GET /admin/ => generated 3449 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1957|app: 0|req: 14/74] 101.81.250.65 () {42 vars in 826 bytes} [Tue Apr 10 14:53:00 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 10/75] 61.129.8.199 () {44 vars in 1184 bytes} [Tue Apr 10 14:53:34 2018] GET /iot/neonlights?nsukey=Y8FnGUCcP5nghbI52gx2QUnTwSNQY4StEB4Sxf74cP3GmqkLK3cF%2FZIBvwUm%2Fr8fTT0R2iXGFYl4%2FMp3TB%2F9FtoEvKQeNSMAmlWU%2F7AitGrTxOfa7FPiub1J02n6uRelzeuMJnIShhFZomKO3WZ%2FWOQGEPQes85x7fxQfRjbIab2VyjuE3%2FjNjoI0x20dVQe%2BRoAascoVsn3yGLRacg8GA%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 5/76] 61.151.178.174 () {42 vars in 1282 bytes} [Tue Apr 10 14:53:34 2018] GET /iot/neonlights?nsukey=Y8FnGUCcP5nghbI52gx2QUnTwSNQY4StEB4Sxf74cP3GmqkLK3cF%2FZIBvwUm%2Fr8fTT0R2iXGFYl4%2FMp3TB%2F9FtoEvKQeNSMAmlWU%2F7AitGrTxOfa7FPiub1J02n6uRelzeuMJnIShhFZomKO3WZ%2FWOQGEPQes85x7fxQfRjbIab2VyjuE3%2FjNjoI0x20dVQe%2BRoAascoVsn3yGLRacg8GA%3D%3D => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 5/77] 61.129.10.43 () {44 vars in 1184 bytes} [Tue Apr 10 14:53:35 2018] GET /iot/neonlights?nsukey=Y8FnGUCcP5nghbI52gx2QUnTwSNQY4StEB4Sxf74cP3GmqkLK3cF%2FZIBvwUm%2Fr8fTT0R2iXGFYl4%2FMp3TB%2F9FtoEvKQeNSMAmlWU%2F7AitGrTxOfa7FPiub1J02n6uRelzeuMJnIShhFZomKO3WZ%2FWOQGEPQes85x7fxQfRjbIab2VyjuE3%2FjNjoI0x20dVQe%2BRoAascoVsn3yGLRacg8GA%3D%3D => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 4/78] 61.151.178.175 () {42 vars in 1282 bytes} [Tue Apr 10 14:53:35 2018] GET /iot/neonlights?nsukey=Y8FnGUCcP5nghbI52gx2QUnTwSNQY4StEB4Sxf74cP3GmqkLK3cF%2FZIBvwUm%2Fr8fTT0R2iXGFYl4%2FMp3TB%2F9FtoEvKQeNSMAmlWU%2F7AitGrTxOfa7FPiub1J02n6uRelzeuMJnIShhFZomKO3WZ%2FWOQGEPQes85x7fxQfRjbIab2VyjuE3%2FjNjoI0x20dVQe%2BRoAascoVsn3yGLRacg8GA%3D%3D => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 9/79] 101.81.250.65 () {38 vars in 1336 bytes} [Tue Apr 10 14:53:36 2018] GET /iot/neonlights?nsukey=Y8FnGUCcP5nghbI52gx2QUnTwSNQY4StEB4Sxf74cP3GmqkLK3cF%2FZIBvwUm%2Fr8fTT0R2iXGFYl4%2FMp3TB%2F9FtoEvKQeNSMAmlWU%2F7AitGrTxOfa7FPiub1J02n6uRelzeuMJnIShhFZomKO3WZ%2FWOQGEPQes85x7fxQfRjbIab2VyjuE3%2FjNjoI0x20dVQe%2BRoAascoVsn3yGLRacg8GA%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1954|app: 0|req: 4/80] 101.81.250.65 () {40 vars in 1084 bytes} [Tue Apr 10 14:53:37 2018] GET /favicon.ico => generated 2071 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 8/81] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:40 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 3389 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 4/82] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:53:40 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 4118 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 10/83] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:53:40 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 4843 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 20/84] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:43 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 2497 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 6/85] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:53:43 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3039 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 15/86] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:44 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 3166 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 11/87] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:53:45 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 3235 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 9/88] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:53:45 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3253 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 5/89] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:46 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 3436 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 5/90] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:53:46 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3440 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 21/91] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:47 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 3356 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 5/92] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:53:48 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 3029 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 16/93] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:53:49 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3080 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 7/94] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:49 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 2883 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 11/95] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:53:50 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 2719 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 6/96] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:51 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 2556 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 22/97] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:53:51 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 2244 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 6/98] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:53:52 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1940 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 17/99] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:53 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 680 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 8/100] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:54 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 487 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 10/101] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:53:55 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 517 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 12/102] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:53:58 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 17271 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 6/103] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:53:58 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 17916 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 12/104] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:53:58 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 18533 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 23/105] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:10 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 7776 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 7/106] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:10 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 8431 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 6/107] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:15 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3134 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 13/108] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:54:16 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3033 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 13/109] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:54:17 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 3164 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 18/110] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:17 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 3088 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 9/111] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:18 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 2839 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 7/112] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:19 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3077 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 11/113] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:54:19 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 2997 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 7/114] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:54:20 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 3023 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 8/115] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:21 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 2931 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 24/116] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:21 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 3053 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 7/117] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:22 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 2911 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 14/118] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:54:22 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3332 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 10/119] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:54:22 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 3740 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 19/120] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:54:23 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3447 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 12/121] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:24 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3413 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 14/122] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:54:24 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 3630 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 8/123] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:54:25 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3610 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 20/124] 117.185.117.57 () {36 vars in 692 bytes} [Tue Apr 10 14:54:29 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 8/125] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:26 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3386 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 9/126] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:54:26 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 3482 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 25/127] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:54:27 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 3719 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 8/128] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:28 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3661 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 15/129] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:54:28 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 3588 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 9/130] 101.227.131.139 () {36 vars in 1180 bytes} [Tue Apr 10 14:54:33 2018] GET /iot/neonlights?nsukey=Y8FnGUCcP5nghbI52gx2QUnTwSNQY4StEB4Sxf74cP3GmqkLK3cF%2FZIBvwUm%2Fr8fTT0R2iXGFYl4%2FMp3TB%2F9FtoEvKQeNSMAmlWU%2F7AitGrTxOfa7FPiub1J02n6uRelzeuMJnIShhFZomKO3WZ%2FWOQGEPQes85x7fxQfRjbIab2VyjuE3%2FjNjoI0x20dVQe%2BRoAascoVsn3yGLRacg8GA%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 15/131] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:29 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 3830 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 13/132] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:29 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 3587 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 11/133] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:30 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3468 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 9/134] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:31 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3554 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 10/135] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:31 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 3603 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Tue Apr 10 14:54:47 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swiperightOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:47 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swiperightOff (101.81.250.65)
+OSError: write error
+[pid: 1948|app: 0|req: 26/136] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:32 2018] GET /iot/neonlights/swiperightOff => generated 0 bytes in 15171 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:47 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/shakeOn (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:47 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/shakeOn (101.81.250.65)
+OSError: write error
+[pid: 1953|app: 0|req: 9/137] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:33 2018] GET /iot/neonlights/shakeOn => generated 0 bytes in 13781 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:47 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swiperightOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:47 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swiperightOff (101.81.250.65)
+OSError: write error
+[pid: 1957|app: 0|req: 21/138] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:33 2018] GET /iot/neonlights/swiperightOff => generated 0 bytes in 14090 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:47 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swipeleftOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:47 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swipeleftOff (101.81.250.65)
+OSError: write error
+[pid: 1950|app: 0|req: 16/139] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:35 2018] GET /iot/neonlights/swipeleftOff => generated 0 bytes in 12449 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:47 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swipeleftOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:47 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swipeleftOff (101.81.250.65)
+OSError: write error
+[pid: 1956|app: 0|req: 16/140] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:33 2018] GET /iot/neonlights/swipeleftOff => generated 0 bytes in 14601 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:52 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swiperightOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:52 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swiperightOff (101.81.250.65)
+OSError: write error
+[pid: 1955|app: 0|req: 14/141] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:35 2018] GET /iot/neonlights/swiperightOff => generated 0 bytes in 17022 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:53 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/shakeOn (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:53 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/shakeOn (101.81.250.65)
+OSError: write error
+[pid: 1952|app: 0|req: 12/142] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:40 2018] GET /iot/neonlights/shakeOn => generated 0 bytes in 13078 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:53 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swipeleftOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:53 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swipeleftOff (101.81.250.65)
+OSError: write error
+[pid: 1954|app: 0|req: 10/143] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:54:40 2018] GET /iot/neonlights/swipeleftOff => generated 0 bytes in 13314 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:54 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swiperightOff (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:54 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swiperightOff (101.81.250.65)
+OSError: write error
+[pid: 1949|app: 0|req: 11/144] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:54:40 2018] GET /iot/neonlights/swiperightOff => generated 0 bytes in 13474 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 14:54:54 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/shakeOn (ip 101.81.250.65) !!!
+Tue Apr 10 14:54:54 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/shakeOn (101.81.250.65)
+OSError: write error
+[pid: 1951|app: 0|req: 10/145] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:54:40 2018] GET /iot/neonlights/shakeOn => generated 0 bytes in 13641 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 1957|app: 0|req: 22/146] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:00 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1007 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 10/147] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:00 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 1176 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 27/148] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:00 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1610 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 17/149] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:01 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 616 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 17/150] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:02 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 978 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 13/151] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:02 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1142 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 15/152] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:02 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1149 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 12/153] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:03 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 945 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 11/154] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:03 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 1288 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 11/155] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:03 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1236 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 11/156] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:04 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1008 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 28/157] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:04 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 985 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 23/158] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:05 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1003 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 18/159] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:05 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 830 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 18/160] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:05 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 697 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 14/161] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:11 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 948 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 12/162] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:55:12 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 1111 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 16/163] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:11 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1293 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 13/164] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:55:13 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 1013 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 12/165] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:13 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1182 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 12/166] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:13 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1106 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 24/167] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 14:55:14 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 731 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 29/168] 101.81.250.65 () {44 vars in 1134 bytes} [Tue Apr 10 14:55:14 2018] GET /iot/neonlights/swipeleftOn => generated 7 bytes in 1152 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 19/169] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:14 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 711 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 19/170] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:17 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 997 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 15/171] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:17 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1158 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 17/172] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:17 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1335 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 13/173] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:18 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 947 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 13/174] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:18 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1115 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 14/175] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:18 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1291 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 30/176] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:19 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1007 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 25/177] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:19 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1080 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 13/178] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:20 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 820 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 20/179] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:21 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 986 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 16/180] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:21 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1157 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 18/181] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:21 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1218 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 20/182] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:22 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 972 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 14/183] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:22 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 920 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 14/184] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:22 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 975 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 15/185] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:23 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1039 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 31/186] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:23 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1090 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 26/187] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:23 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 904 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 17/188] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:24 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 998 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 14/189] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:24 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1169 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 21/190] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:24 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1270 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 19/191] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:25 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 590 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 21/192] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:26 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 946 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 15/193] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:26 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1110 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 15/194] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:26 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1363 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 16/195] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:27 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 994 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 32/196] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:27 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1044 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 15/197] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:27 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1338 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 18/198] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:28 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 842 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 22/199] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:28 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 895 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 20/200] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:29 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 901 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 27/201] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:29 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1072 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 16/202] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:29 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 945 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 16/203] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:30 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 926 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 22/204] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:30 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1097 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 17/205] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:30 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1202 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 16/206] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:31 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1015 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 33/207] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:31 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1077 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 19/208] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:31 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1118 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 23/209] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:33 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1000 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 28/210] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:33 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1167 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 21/211] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:33 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1225 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 23/212] 101.81.250.65 () {44 vars in 1136 bytes} [Tue Apr 10 14:55:34 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1041 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 17/213] 101.81.250.65 () {44 vars in 1126 bytes} [Tue Apr 10 14:55:34 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1208 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 17/214] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 14:55:34 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1153 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 18/215] 101.227.139.161 () {36 vars in 568 bytes} [Tue Apr 10 14:56:27 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 34/216] 61.151.178.179 () {44 vars in 1190 bytes} [Tue Apr 10 15:00:46 2018] GET /iot/neonlights?nsukey=Og14KHANyhSdRXaqs9MODm1A%2FwAMBF%2BoYlmDVkIT5KfXDLSjXYB%2BDpqoxX0lHXA4Le%2F7fdyydRV%2Fi3U6U1xyDolpmxIjbgHosyH%2BKc6k3nMYrm7GxRRKTv9v1MDnRiN%2FpWw8SUh2hNwLoH1vw8N631Qgp1dvFnq%2Bq7UXmACPEVzDTVAT%2FvxCPzzCpAdcBudJGwJURWciwXzMWP7CEDQ50A%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 20/217] 61.129.6.75 () {42 vars in 1283 bytes} [Tue Apr 10 15:00:46 2018] GET /iot/neonlights?nsukey=Og14KHANyhSdRXaqs9MODm1A%2FwAMBF%2BoYlmDVkIT5KfXDLSjXYB%2BDpqoxX0lHXA4Le%2F7fdyydRV%2Fi3U6U1xyDolpmxIjbgHosyH%2BKc6k3nMYrm7GxRRKTv9v1MDnRiN%2FpWw8SUh2hNwLoH1vw8N631Qgp1dvFnq%2Bq7UXmACPEVzDTVAT%2FvxCPzzCpAdcBudJGwJURWciwXzMWP7CEDQ50A%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 29/218] 101.81.250.65 () {38 vars in 1340 bytes} [Tue Apr 10 15:00:47 2018] GET /iot/neonlights?nsukey=Og14KHANyhSdRXaqs9MODm1A%2FwAMBF%2BoYlmDVkIT5KfXDLSjXYB%2BDpqoxX0lHXA4Le%2F7fdyydRV%2Fi3U6U1xyDolpmxIjbgHosyH%2BKc6k3nMYrm7GxRRKTv9v1MDnRiN%2FpWw8SUh2hNwLoH1vw8N631Qgp1dvFnq%2Bq7UXmACPEVzDTVAT%2FvxCPzzCpAdcBudJGwJURWciwXzMWP7CEDQ50A%3D%3D => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1951|app: 0|req: 18/219] 101.81.250.65 () {40 vars in 1086 bytes} [Tue Apr 10 15:00:47 2018] GET /favicon.ico => generated 2071 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 24/220] 101.81.250.65 () {44 vars in 1130 bytes} [Tue Apr 10 15:00:54 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 924 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 22/221] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:54 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1189 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 18/222] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:54 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 1369 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 17/223] 101.81.250.65 () {44 vars in 1130 bytes} [Tue Apr 10 15:00:55 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 810 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 24/224] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:56 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 875 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 19/225] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:55 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1163 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 21/226] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:57 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 1001 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 35/227] 101.81.250.65 () {44 vars in 1130 bytes} [Tue Apr 10 15:00:56 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1542 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 30/228] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:57 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1229 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1955|app: 0|req: 23/229] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:58 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 1314 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 19/230] 101.81.250.65 () {44 vars in 1130 bytes} [Tue Apr 10 15:00:58 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1233 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 20/231] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:58 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1406 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 25/232] 101.81.250.65 () {44 vars in 1130 bytes} [Tue Apr 10 15:00:59 2018] GET /iot/neonlights/shakeOff => generated 7 bytes in 1424 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1953|app: 0|req: 18/233] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:59 2018] GET /iot/neonlights/swiperightOn => generated 7 bytes in 2187 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1956|app: 0|req: 25/234] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:00:59 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 2478 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 36/235] 101.81.250.65 () {44 vars in 1140 bytes} [Tue Apr 10 15:01:00 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 1945 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 22/236] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 15:01:00 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 2117 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1957|app: 0|req: 31/237] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:01:02 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 507 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1949|app: 0|req: 21/238] 101.81.250.65 () {44 vars in 1140 bytes} [Tue Apr 10 15:01:06 2018] GET /iot/neonlights/swiperightOff => generated 7 bytes in 998 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1954|app: 0|req: 20/239] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 15:01:06 2018] GET /iot/neonlights/shakeOn => generated 7 bytes in 1165 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 1951|app: 0|req: 19/240] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:01:06 2018] GET /iot/neonlights/swipeleftOff => generated 7 bytes in 1343 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+Tue Apr 10 15:01:08 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/shakeOn (ip 101.81.250.65) !!!
+Tue Apr 10 15:01:08 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/shakeOn (101.81.250.65)
+OSError: write error
+[pid: 1955|app: 0|req: 24/241] 101.81.250.65 () {44 vars in 1128 bytes} [Tue Apr 10 15:01:07 2018] GET /iot/neonlights/shakeOn => generated 0 bytes in 1150 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 15:01:08 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swiperightOff (ip 101.81.250.65) !!!
+Tue Apr 10 15:01:08 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swiperightOff (101.81.250.65)
+OSError: write error
+[pid: 1953|app: 0|req: 19/242] 101.81.250.65 () {44 vars in 1140 bytes} [Tue Apr 10 15:01:07 2018] GET /iot/neonlights/swiperightOff => generated 0 bytes in 1306 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+Tue Apr 10 15:01:08 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /iot/neonlights/swipeleftOff (ip 101.81.250.65) !!!
+Tue Apr 10 15:01:08 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /iot/neonlights/swipeleftOff (101.81.250.65)
+OSError: write error
+[pid: 1950|app: 0|req: 26/243] 101.81.250.65 () {44 vars in 1138 bytes} [Tue Apr 10 15:01:07 2018] GET /iot/neonlights/swipeleftOff => generated 0 bytes in 1262 msecs (HTTP/1.1 200) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 1956|app: 0|req: 26/244] 61.151.226.62 () {36 vars in 1149 bytes} [Tue Apr 10 15:01:46 2018] GET /iot/neonlights?nsukey=Og14KHANyhSdRXaqs9MODm1A%2FwAMBF%2BoYlmDVkIT5KfXDLSjXYB%2BDpqoxX0lHXA4Le%2F7fdyydRV%2Fi3U6U1xyDolpmxIjbgHosyH%2BKc6k3nMYrm7GxRRKTv9v1MDnRiN%2FpWw8SUh2hNwLoH1vw8N631Qgp1dvFnq%2Bq7UXmACPEVzDTVAT%2FvxCPzzCpAdcBudJGwJURWciwXzMWP7CEDQ50A%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1952|app: 0|req: 23/245] 61.151.226.65 () {36 vars in 1112 bytes} [Tue Apr 10 15:01:46 2018] GET /iot/neonlights?nsukey=Og14KHANyhSdRXaqs9MODm1A%2FwAMBF%2BoYlmDVkIT5KfXDLSjXYB%2BDpqoxX0lHXA4Le%2F7fdyydRV%2Fi3U6U1xyDolpmxIjbgHosyH%2BKc6k3nMYrm7GxRRKTv9v1MDnRiN%2FpWw8SUh2hNwLoH1vw8N631Qgp1dvFnq%2Bq7UXmACPEVzDTVAT%2FvxCPzzCpAdcBudJGwJURWciwXzMWP7CEDQ50A%3D%3D => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 37/246] 117.185.117.52 () {38 vars in 757 bytes} [Tue Apr 10 15:11:31 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.108.83.201:8000'. You may need to add '39.108.83.201' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 38/247] 114.215.45.101 () {32 vars in 369 bytes} [Tue Apr 10 16:09:34 2018] GET / => generated 55996 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1948|app: 0|req: 39/248] 198.20.70.114 () {34 vars in 541 bytes} [Tue Apr 10 16:37:18 2018] GET / => generated 2022 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1957|app: 0|req: 32/249] 198.20.70.114 () {36 vars in 459 bytes} [Tue Apr 10 16:37:23 2018] GET /favicon.ico => generated 2073 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 40/250] 80.82.78.50 () {32 vars in 432 bytes} [Tue Apr 10 17:21:38 2018] GET /cache/global/img/gs.gif => generated 56245 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.106.180.183:8000'. You may need to add '39.106.180.183' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 41/251] 59.110.6.177 () {32 vars in 368 bytes} [Wed Apr 11 00:10:56 2018] GET / => generated 56009 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 42/252] 66.102.6.155 () {42 vars in 727 bytes} [Wed Apr 11 02:44:40 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 1950|app: 0|req: 27/253] 66.102.6.154 () {38 vars in 648 bytes} [Wed Apr 11 02:44:40 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1952|app: 0|req: 24/254] 66.102.6.155 () {38 vars in 598 bytes} [Wed Apr 11 02:44:40 2018] GET /favicon.ico => generated 2071 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1948|app: 0|req: 43/255] 58.37.172.168 () {44 vars in 857 bytes} [Wed Apr 11 02:58:30 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.106.108.225:8000'. You may need to add '39.106.108.225' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 44/256] 47.92.2.1 () {32 vars in 365 bytes} [Wed Apr 11 08:16:06 2018] GET / => generated 56006 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1948|app: 0|req: 45/257] 13.250.1.54 () {36 vars in 420 bytes} [Wed Apr 11 10:16:41 2018] GET / => generated 2022 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 46/258] 80.82.78.50 () {32 vars in 432 bytes} [Wed Apr 11 15:39:11 2018] GET /cache/global/img/gs.gif => generated 56245 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.108.122.120:8000'. You may need to add '39.108.122.120' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 47/259] 114.215.45.79 () {32 vars in 369 bytes} [Wed Apr 11 16:07:35 2018] GET / => generated 56010 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 48/260] 124.78.33.38 () {42 vars in 717 bytes} [Wed Apr 11 17:42:24 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[pid: 1949|app: 0|req: 22/261] 124.78.33.38 () {38 vars in 571 bytes} [Wed Apr 11 17:42:24 2018] GET /apple-touch-icon-120x120-precomposed.png => generated 2162 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120.png
+[pid: 1948|app: 0|req: 49/262] 124.78.33.38 () {38 vars in 547 bytes} [Wed Apr 11 17:42:24 2018] GET /apple-touch-icon-120x120.png => generated 2126 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1957|app: 0|req: 33/263] 124.78.33.38 () {38 vars in 555 bytes} [Wed Apr 11 17:42:24 2018] GET /apple-touch-icon-precomposed.png => generated 2138 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1956|app: 0|req: 27/264] 124.78.33.38 () {38 vars in 531 bytes} [Wed Apr 11 17:42:24 2018] GET /apple-touch-icon.png => generated 2102 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1950|app: 0|req: 28/265] 124.78.33.38 () {38 vars in 513 bytes} [Wed Apr 11 17:42:24 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[pid: 1955|app: 0|req: 25/266] 124.78.33.38 () {38 vars in 571 bytes} [Wed Apr 11 17:42:25 2018] GET /apple-touch-icon-120x120-precomposed.png => generated 2162 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120.png
+[pid: 1948|app: 0|req: 50/267] 124.78.33.38 () {38 vars in 547 bytes} [Wed Apr 11 17:42:25 2018] GET /apple-touch-icon-120x120.png => generated 2126 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1957|app: 0|req: 34/268] 124.78.33.38 () {38 vars in 555 bytes} [Wed Apr 11 17:42:25 2018] GET /apple-touch-icon-precomposed.png => generated 2138 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1951|app: 0|req: 20/269] 124.78.33.38 () {38 vars in 531 bytes} [Wed Apr 11 17:42:25 2018] GET /apple-touch-icon.png => generated 2102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1956|app: 0|req: 28/270] 124.78.33.38 () {38 vars in 513 bytes} [Wed Apr 11 17:42:25 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '47.93.92.136:8000'. You may need to add '47.93.92.136' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 51/271] 47.93.112.232 () {32 vars in 367 bytes} [Thu Apr 12 00:15:24 2018] GET / => generated 55980 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1948|app: 0|req: 52/272] 139.162.79.87 () {34 vars in 394 bytes} [Thu Apr 12 05:13:19 2018] GET / => generated 2022 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 53/273] 66.102.6.91 () {38 vars in 647 bytes} [Thu Apr 12 08:46:13 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1957|app: 0|req: 35/274] 66.102.6.89 () {38 vars in 597 bytes} [Thu Apr 12 08:46:14 2018] GET /favicon.ico => generated 2071 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.107.71.96:8000'. You may need to add '39.107.71.96' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 54/275] 116.62.176.205 () {32 vars in 367 bytes} [Thu Apr 12 09:43:51 2018] GET / => generated 55980 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.105.7.72:8000'. You may need to add '39.105.7.72' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 55/276] 114.215.45.79 () {32 vars in 366 bytes} [Thu Apr 12 16:06:24 2018] GET / => generated 55965 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add 'www.qq.com' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 56/277] 120.132.3.65 () {34 vars in 512 bytes} [Thu Apr 12 23:46:21 2018] GET /404/search_children.js => generated 56389 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.105.7.72:8000'. You may need to add '39.105.7.72' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 57/278] 47.93.112.232 () {32 vars in 365 bytes} [Fri Apr 13 00:15:13 2018] GET / => generated 55964 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 58/279] 172.105.227.251 () {42 vars in 720 bytes} [Fri Apr 13 00:59:48 2018] GET /iot/neonlights => generated 1152 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[pid: 1957|app: 0|req: 36/280] 124.78.33.38 () {38 vars in 571 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon-120x120-precomposed.png => generated 2162 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120.png
+[pid: 1956|app: 0|req: 29/281] 124.78.33.38 () {38 vars in 547 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon-120x120.png => generated 2126 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1950|app: 0|req: 29/282] 124.78.33.38 () {38 vars in 555 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon-precomposed.png => generated 2138 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1955|app: 0|req: 26/283] 124.78.33.38 () {38 vars in 531 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon.png => generated 2102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1951|app: 0|req: 21/284] 124.78.33.38 () {38 vars in 513 bytes} [Fri Apr 13 00:59:49 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[pid: 1954|app: 0|req: 21/285] 124.78.33.38 () {38 vars in 571 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon-120x120-precomposed.png => generated 2162 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120.png
+[pid: 1949|app: 0|req: 23/286] 124.78.33.38 () {38 vars in 547 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon-120x120.png => generated 2126 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1953|app: 0|req: 20/287] 124.78.33.38 () {38 vars in 555 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon-precomposed.png => generated 2138 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1948|app: 0|req: 59/288] 124.78.33.38 () {38 vars in 531 bytes} [Fri Apr 13 00:59:49 2018] GET /apple-touch-icon.png => generated 2102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1952|app: 0|req: 25/289] 124.78.33.38 () {38 vars in 513 bytes} [Fri Apr 13 00:59:49 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 60/290] 172.82.166.210 () {32 vars in 435 bytes} [Fri Apr 13 02:35:30 2018] GET /cache/global/img/gs.gif => generated 56248 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1948|app: 0|req: 61/291] 66.102.6.89 () {38 vars in 597 bytes} [Fri Apr 13 03:04:49 2018] GET /favicon.ico => generated 2071 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.106.3.4:8000'. You may need to add '39.106.3.4' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 62/292] 114.215.45.79 () {32 vars in 365 bytes} [Fri Apr 13 08:03:09 2018] GET / => generated 55950 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 63/293] 80.82.78.50 () {32 vars in 432 bytes} [Fri Apr 13 11:20:00 2018] GET /cache/global/img/gs.gif => generated 56245 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 64/294] 66.102.6.153 () {38 vars in 648 bytes} [Fri Apr 13 15:13:04 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.104.1.40:8000'. You may need to add '39.104.1.40' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 65/295] 47.92.2.1 () {32 vars in 362 bytes} [Fri Apr 13 16:12:48 2018] GET / => generated 55961 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.106.28.77:8000'. You may need to add '39.106.28.77' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 66/296] 47.92.2.1 () {32 vars in 363 bytes} [Sat Apr 14 00:11:04 2018] GET / => generated 55976 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 67/297] 66.102.6.153 () {38 vars in 648 bytes} [Sat Apr 14 01:33:15 2018] GET /iot/test => generated 2439 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1957|app: 0|req: 37/298] 66.102.6.155 () {38 vars in 598 bytes} [Sat Apr 14 01:33:16 2018] GET /favicon.ico => generated 2071 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1948|app: 0|req: 68/299] 139.162.79.87 () {34 vars in 394 bytes} [Sat Apr 14 04:39:02 2018] GET / => generated 2022 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '39.104.1.131:8000'. You may need to add '39.104.1.131' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 69/300] 116.62.176.205 () {32 vars in 368 bytes} [Sat Apr 14 08:07:26 2018] GET / => generated 55981 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[pid: 1948|app: 0|req: 70/301] 80.82.78.50 () {32 vars in 432 bytes} [Sat Apr 14 08:46:36 2018] GET /cache/global/img/gs.gif => generated 56245 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /iot
+[pid: 1948|app: 0|req: 71/302] 112.65.61.244 () {38 vars in 662 bytes} [Sat Apr 14 09:00:46 2018] GET /iot => generated 2047 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1957|app: 0|req: 38/303] 112.65.61.244 () {38 vars in 577 bytes} [Sat Apr 14 09:00:46 2018] GET /favicon.ico => generated 2071 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1948|app: 0|req: 72/304] 223.104.213.39 () {42 vars in 717 bytes} [Sat Apr 14 11:01:34 2018] GET /iot/neonlights => generated 1152 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[pid: 1954|app: 0|req: 22/305] 223.104.213.39 () {38 vars in 575 bytes} [Sat Apr 14 11:01:34 2018] GET /apple-touch-icon-120x120-precomposed.png => generated 2162 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120.png
+[pid: 1957|app: 0|req: 39/306] 223.104.213.39 () {38 vars in 551 bytes} [Sat Apr 14 11:01:34 2018] GET /apple-touch-icon-120x120.png => generated 2126 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1956|app: 0|req: 30/307] 223.104.213.39 () {38 vars in 559 bytes} [Sat Apr 14 11:01:34 2018] GET /apple-touch-icon-precomposed.png => generated 2138 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1950|app: 0|req: 30/308] 223.104.213.39 () {38 vars in 535 bytes} [Sat Apr 14 11:01:34 2018] GET /apple-touch-icon.png => generated 2102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1948|app: 0|req: 73/309] 223.104.213.39 () {38 vars in 517 bytes} [Sat Apr 14 11:01:34 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[pid: 1955|app: 0|req: 27/310] 223.104.213.39 () {38 vars in 575 bytes} [Sat Apr 14 11:01:34 2018] GET /apple-touch-icon-120x120-precomposed.png => generated 2162 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-120x120.png
+[pid: 1951|app: 0|req: 22/311] 223.104.213.39 () {38 vars in 551 bytes} [Sat Apr 14 11:01:35 2018] GET /apple-touch-icon-120x120.png => generated 2126 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1954|app: 0|req: 23/312] 223.104.213.39 () {38 vars in 559 bytes} [Sat Apr 14 11:01:35 2018] GET /apple-touch-icon-precomposed.png => generated 2138 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1957|app: 0|req: 40/313] 223.104.213.39 () {38 vars in 535 bytes} [Sat Apr 14 11:01:35 2018] GET /apple-touch-icon.png => generated 2102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1956|app: 0|req: 31/314] 223.104.213.39 () {38 vars in 517 bytes} [Sat Apr 14 11:01:35 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Sat Apr 14 23:52:14 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+[emperor] *** RAGNAROK EVOKED ***
+Sat Apr 14 23:52:14 2018 - [emperor] stop the uwsgi instance fullrank_uwsgi.ini
+Gracefully killing worker 10 (pid: 1942)...
+Gracefully killing worker 3 (pid: 1935)...
+Gracefully killing worker 7 (pid: 1939)...
+Gracefully killing worker 5 (pid: 1937)...
+Gracefully killing worker 2 (pid: 1934)...
+Gracefully killing worker 6 (pid: 1938)...
+Gracefully killing worker 9 (pid: 1941)...
+Gracefully killing worker 4 (pid: 1936)...
+Gracefully killing worker 1 (pid: 1933)...
+Gracefully killing worker 8 (pid: 1940)...
+...gracefully killing workers...
+Sat Apr 14 23:52:14 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+Gracefully killing worker 2 (pid: 1949)...
+Gracefully killing worker 9 (pid: 1956)...
+Gracefully killing worker 4 (pid: 1951)...
+Gracefully killing worker 7 (pid: 1954)...
+Gracefully killing worker 1 (pid: 1948)...
+Gracefully killing worker 10 (pid: 1957)...
+Gracefully killing worker 3 (pid: 1950)...
+Gracefully killing worker 8 (pid: 1955)...
+Gracefully killing worker 5 (pid: 1952)...
+Gracefully killing worker 6 (pid: 1953)...
+...gracefully killing workers...
+[emperor] *** RAGNAROK EVOKED ***
+Sat Apr 14 23:52:14 2018 - [emperor] stop the uwsgi instance fullrank_uwsgi.ini
+Gracefully killing worker 2 (pid: 1902)...
+Gracefully killing worker 8 (pid: 1908)...
+Gracefully killing worker 7 (pid: 1907)...
+Gracefully killing worker 9 (pid: 1909)...
+Gracefully killing worker 1 (pid: 1901)...
+Gracefully killing worker 4 (pid: 1904)...
+Gracefully killing worker 5 (pid: 1905)...
+Gracefully killing worker 6 (pid: 1906)...
+Gracefully killing worker 3 (pid: 1903)...
+Gracefully killing worker 10 (pid: 1910)...
+Sat Apr 14 23:52:14 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+[emperor] *** RAGNAROK EVOKED ***
+Sat Apr 14 23:52:14 2018 - [emperor] stop the uwsgi instance fullrank_uwsgi.ini
+Gracefully killing worker 10 (pid: 1931)...
+Gracefully killing worker 9 (pid: 1930)...
+Gracefully killing worker 6 (pid: 1927)...
+Gracefully killing worker 1 (pid: 1922)...
+Gracefully killing worker 5 (pid: 1926)...
+Gracefully killing worker 7 (pid: 1928)...
+Gracefully killing worker 2 (pid: 1923)...
+Gracefully killing worker 8 (pid: 1929)...
+Gracefully killing worker 4 (pid: 1925)...
+Gracefully killing worker 3 (pid: 1924)...
+...gracefully killing workers...
+Sat Apr 14 23:52:14 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+[emperor] *** RAGNAROK EVOKED ***
+Sat Apr 14 23:52:14 2018 - [emperor] stop the uwsgi instance fullrank_uwsgi.ini
+Sat Apr 14 15:52:14 2018 - received message 1 from emperor
+Sat Apr 14 15:52:14 2018 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+Gracefully killing worker 9 (pid: 1919)...
+Gracefully killing worker 10 (pid: 1920)...
+Gracefully killing worker 2 (pid: 1912)...
+Gracefully killing worker 5 (pid: 1915)...
+Gracefully killing worker 8 (pid: 1918)...
+Gracefully killing worker 3 (pid: 1913)...
+Gracefully killing worker 7 (pid: 1917)...
+Gracefully killing worker 4 (pid: 1914)...
+Gracefully killing worker 1 (pid: 1911)...
+Gracefully killing worker 6 (pid: 1916)...
+Sat Apr 14 23:52:14 2018 - [emperor] reload the uwsgi instance fullrank_uwsgi.ini
+[emperor] *** RAGNAROK EVOKED ***
+Sat Apr 14 23:52:14 2018 - [emperor] stop the uwsgi instance fullrank_uwsgi.ini
+...gracefully killing workers...
+Sat Apr 14 15:52:14 2018 - received message 1 from emperor
+Sat Apr 14 15:52:14 2018 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+Sat Apr 14 15:52:14 2018 - received message 1 from emperor
+Sat Apr 14 15:52:14 2018 - received message 1 from emperor
+Sat Apr 14 15:52:14 2018 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+...gracefully killing workers...
+Sat Apr 14 15:52:14 2018 - received message 1 from emperor
+Sat Apr 14 15:52:14 2018 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+Sat Apr 14 15:52:14 2018 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/matthew/django/fullrank/fullrank.sock changed inode. Skip removal
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/matthew/django/fullrank/fullrank.sock changed inode. Skip removal
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/matthew/django/fullrank/fullrank.sock removed.
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+unlink(): No such file or directory [core/uwsgi.c line 1657]
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+unlink(): No such file or directory [core/uwsgi.c line 1626]
+Sat Apr 14 23:52:16 2018 - [emperor] removed uwsgi instance fullrank_uwsgi.ini
+Sat Apr 14 23:52:16 2018 - [emperor] removed uwsgi instance fullrank_uwsgi.ini
+Sat Apr 14 23:52:16 2018 - [emperor] removed uwsgi instance fullrank_uwsgi.ini
+Sat Apr 14 23:52:16 2018 - [emperor] removed uwsgi instance fullrank_uwsgi.ini
+Sat Apr 14 23:52:16 2018 - [emperor] removed uwsgi instance fullrank_uwsgi.ini
+Sat Apr 14 23:52:17 2018 - The Emperor is buried.
+Sat Apr 14 23:52:17 2018 - The Emperor is buried.
+Sat Apr 14 23:52:17 2018 - The Emperor is buried.
+Sat Apr 14 23:52:17 2018 - The Emperor is buried.
+Sat Apr 14 23:52:17 2018 - The Emperor is buried.

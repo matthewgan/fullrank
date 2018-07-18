@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8">
+  		function set_body_height()
+  		{
+  		    var wh = $(window).height();
+  		    $('body').attr('style', 'height:' + wh + 'px;');
+  		}
+  		$(document).ready(function() {
+  		    set_body_height();
+  		    $(window).bind('resize', function() { set_body_height(); });
+  		});
+  	</script>
+
+    <script type="text/javascript" charset="utf-8">
+    //Global settings
+      //var yunUrlBase = "http://192.168.1.134/arduino/";
+      var yunUrlBase="http://tunnel40011.cn0.abeliansystems.com:81/arduino/";
+      var operationType = "digital/";
+
+      var opPin = {"shake":5,"swipeLeft":5,"swipeRight":6};
+
+      var opSetHigh = "/1";
+      var opSetLow = "/0";
+      var opSet = {"open":"/1", "close":"/0"};
+
+      var validStr = "<!DOCTYPE html><html><head>received</head></html>";
+
+      //operate function definition
+      function getFullUrl(pinType, opType){
+        var url = yunUrlBase + opPin[pinType] + opSet[opType];
+        //var url = yunUrlBase + opPin[pinType];
+        return url;
+      };
+
+      function XHRmethod(url) {
+        //alert(url);
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.timeout = 5000;
+        //xmlhttp.responseType = "text";
+        xmlhttp.onreadystatechange=function() {
+    		  if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      			var rec = xmlhttp.responseText;
+            var validrec = "success";
+            if(rec.indexOf(validrec) !== -1){
+
+            } else {
+              alert(rec);
+            }
+          }
+    		};
+        xmlhttp.open("GET",url,true);
+        xmlhttp.ontimeout = function(){alert("timeout")};
+        xmlhttp.setRequestHeader("Access-Control-Allow-Origin","*");
+        xmlhttp.send();
+      };
+
+      function FETCHmethod(url){
+        fetch(url).then(function (response) {
+          response.text().then(function(text) {
+            alert(test)
+          })
+        })
+      };
+
+
+      function OnShake(){
+        //var url = getFullUrl("shake", "close");
+        //alert(url);
+        XHRmethod("http://www.fullrank.cc:8000/iot/neonlights/shakeOn");
+        //XHRmethod("http://www.google.com");
+        //var rec = FETCHmethod("http://127.0.0.1:8000/iot/neonlights");
+        //alert(rec);
+      };
+    </script>
+  </head>
+  <body>
+    <button onclick="OnShake()">shake</button>
+  </body>
+</html>
